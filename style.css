@@ -1,0 +1,77 @@
+/* Archivo que con los estilos que contiene el documento*/
+
+body{
+  border: 1px solid rgb(58,163,55);
+  padding-bottom: 100px;
+}
+.container{
+  display:flex;
+  justify-content: center;
+  
+
+}
+
+.form{
+  
+  width:80%;
+}
+.header{
+  display:flex;
+  justify-content: center;
+  padding:10px;
+}
+
+.logo{
+  background-color: #1883ba;
+  width:200px;
+  height:100px;
+  color: white;
+  position: relative;
+  border-radius: 0.5rem;            
+  
+}
+.logo p{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo img{
+  width:200px;
+  height:100px
+}
+.titulo{
+  border:1px solid  #1883ba;
+  padding: 2px;
+  margin: 2px;
+  
+}
+.titulo h1{
+  font-size: 3rem;
+}
+
+.form label{
+  font-weight:bold;
+
+}
+
+.form input[type='text']{
+  background-color: #1883ba;
+  width:100%;
+  color:white;
+}
+
+.form input[type='submit']{
+  background-color:  #1883ba;
+  color: white;
+  width:200px;
+  padding: 0.5rem 3rem;
+}
+
+table{
+  margin-top: 10px;
+  border-collapse:separate; 
+  border-spacing: 0 1em;
+  
+}
